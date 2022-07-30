@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using TodoApi.Models;
 
 namespace TodoApi.Controllers
@@ -14,16 +15,26 @@ namespace TodoApi.Controllers
     public class TodoItemsController : ControllerBase
     {
         private readonly TodoContext _context;
+        private readonly ILogger<TodoItemsController> _logger;
 
-        public TodoItemsController(TodoContext context)
+        public TodoItemsController(TodoContext context, ILogger<TodoItemsController> logger)
         {
-            _context = context;
+            _context = context; 
+            _logger = logger;
         }
 
         // GET: api/TodoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetTodoItems()
         {
+            try
+            {
+                throw new Exception("This is a custom exception");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogCritical(ex, "This a Critical Log {time}", DateTime.UtcNow);
+            }
             return await _context.TodoItems
                 .Select(x => ItemToDTO(x))
                 .ToListAsync();
@@ -80,8 +91,10 @@ namespace TodoApi.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<TodoItemDTO>> CreateTodoItem(TodoItemDTO todoItemDTO)
-        {
+        public async Task<ActionResult<TodoItemDTO>> CreateTodoItem(TodoItemDTO todoItemDTO) 
+        { 
+
+          
             var todoItem = new TodoItem
             {
                 IsComplete = todoItemDTO.IsComplete,

@@ -34,6 +34,10 @@ namespace TodoApi.Controllers
         [HttpGet]
         public /*IEnumerable<WeatherForecast> */ string Get()
         {
+
+            _logger.LogError("Error Log");
+            _logger.LogCritical("Critical Log"); 
+
             //var rng = new Random();
             //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             //{
