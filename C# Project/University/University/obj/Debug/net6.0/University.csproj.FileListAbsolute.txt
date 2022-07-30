@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\University\University\bin\Debug\net6.0\University.exe
+C:\Users\HP\source\repos\University\University\bin\Debug\net6.0\University.deps.json
+C:\Users\HP\source\repos\University\University\bin\Debug\net6.0\University.runtimeconfig.json
+C:\Users\HP\source\repos\University\University\bin\Debug\net6.0\University.dll
+C:\Users\HP\source\repos\University\University\bin\Debug\net6.0\University.pdb
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.AssemblyInfo.cs
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.dll
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\refint\University.dll
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.pdb
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\University.genruntimeconfig.cache
+C:\Users\HP\source\repos\University\University\obj\Debug\net6.0\ref\University.dll

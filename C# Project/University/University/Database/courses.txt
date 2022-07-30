@@ -1,0 +1,4 @@
+id:4,name:Linear algebra,description:No description added yet,teacher:-1,enrolled students ids:
+id:2,name:AP,description:No description added yet,teacher:4,enrolled students ids:3
+id:3,name:Machine learning,description:No description added yet,teacher:-1,enrolled students ids:1
+id:1,name:Science,description:No description added yet,teacher:3,enrolled students ids:2
