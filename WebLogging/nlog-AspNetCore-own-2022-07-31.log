@@ -1,0 +1,14 @@
+2022-07-31 10:46:13.3709|0|DEBUG||WebLogging.Program|init main |url: |action: |WebLogging.Program.Main
+2022-07-31 10:46:14.5611|0|INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 10:46:14.5703|0|INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 10:46:14.5703|0|INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Users\HP\source\repos\WebLogging\WebLogging |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 10:46:14.7268|0|INFO||99077d39-48f3eca3ffd2ec9b.|WebLogging.Controllers.WeatherForecastController|Weather Forecast is called |url: https://localhost/weatherforecast|action: Get|WebLogging.Controllers.WeatherForecastController.Get
+2022-07-31 10:47:55.7406|0|INFO||99077d3b-48f3eca3ffd2ec9b.|WebLogging.Controllers.WeatherForecastController|Weather Forecast is called |url: https://localhost/weatherforecast|action: Get|WebLogging.Controllers.WeatherForecastController.Get
+2022-07-31 10:48:02.6965|0|INFO||99077d3c-48f3eca3ffd2ec9b.|WebLogging.Controllers.WeatherForecastController|Weather Forecast is called |url: https://localhost/weatherforecast/|action: Get|WebLogging.Controllers.WeatherForecastController.Get
+2022-07-31 11:19:19.2416|0|DEBUG||WebLogging.Program|init main |url: |action: |WebLogging.Program.Main
+2022-07-31 11:19:19.4630|0|TRACE||WebLogging.Startup|Startup class constructor is called |url: |action: |WebLogging.Startup..ctor
+2022-07-31 11:19:19.4850|0|TRACE||WebLogging.Startup|ConfigureServises method is called |url: |action: |WebLogging.Startup.ConfigureServices
+2022-07-31 11:19:19.7051|0|INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 11:19:19.7186|0|INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 11:19:19.7186|0|INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Users\HP\source\repos\WebLogging\WebLogging |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-07-31 11:19:19.8843|0|INFO||74101820-49d0f4a841640f4d.|WebLogging.Controllers.WeatherForecastController|Weather Forecast is called |url: https://localhost/weatherforecast|action: Get|WebLogging.Controllers.WeatherForecastController.Get
