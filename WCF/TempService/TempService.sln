@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TempService", "TempService\", "{1F04719C-496A-4AF7-BAE0-BD4DC0867B98}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53474"
+		Debug.AspNetCompiler.PhysicalPath = "TempService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53474\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53474"
+		Release.AspNetCompiler.PhysicalPath = "TempService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53474\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53474"
+		SlnRelativePath = "TempService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F04719C-496A-4AF7-BAE0-BD4DC0867B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04719C-496A-4AF7-BAE0-BD4DC0867B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {455686A7-C62F-4CA9-8F16-38EEFEC89A8D}
+	EndGlobalSection
+EndGlobal
